@@ -47,7 +47,7 @@ console.log(person);
 
 // Цикл бежит по прототипу объекта
 for(let key in person) {
-    if(person.hasOwnProperty(key)){ // Получить ключи объекта
+    if(person.hasOwnProperty(key)){ // Получить ключи объекта person без прототипа 
         console.log('Key', key, person[key]);
     }
 }
